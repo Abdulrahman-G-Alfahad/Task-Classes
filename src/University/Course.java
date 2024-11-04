@@ -1,9 +1,9 @@
 package University;
 
 public class Course {
-    String name;
-    String instructor;
-    int numberOfStudents;
+    private String name;
+    private String instructor;
+    private int numberOfStudents;
 
 
     public Course(String name, String instructor, int numberOfStudents) {
@@ -35,6 +35,8 @@ public class Course {
     public void setNumberOfStudents(int numberOfStudents) {
         this.numberOfStudents = numberOfStudents;
     }
+
+
 
     @Override
     public String toString() {
